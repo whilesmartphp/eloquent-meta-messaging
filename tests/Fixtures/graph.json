@@ -1,0 +1,57 @@
+{
+  "token": {
+    "access_token": "new_access_token"
+  },
+  "phones": {
+    "data": [
+      {
+        "id": "test_phone_number_id",
+        "display_phone_number": "1234567890",
+        "verified_name": "Test Business",
+        "code_verification_status": "VERIFIED"
+      }
+    ]
+  },
+  "pages": {
+    "data": [
+      {
+        "id": "117172741761305",
+        "access_token": "test-page-token",
+        "name": "Acme Support"
+      }
+    ]
+  },
+  "page_details": {
+    "name": "Acme Support",
+    "instagram_business_account": {
+      "id": "instagram-business-id"
+    }
+  },
+  "subscription": {
+    "success": true
+  },
+  "sent_whatsapp": {
+    "messages": [
+      {
+        "id": "message_id"
+      }
+    ]
+  },
+  "sent_messenger": {
+    "recipient_id": "1008372609250235",
+    "message_id": "mid.1456970487936:c34767dfe57ee6e339"
+  },
+  "sent_instagram": {
+    "message_id": "random_message_id"
+  },
+  "error": {
+    "error": {
+      "message": "Invalid message format",
+      "code": 100
+    }
+  },
+  "refresh": {
+    "access_token": "new_refreshed_token",
+    "expires_in": 5184000
+  }
+}
