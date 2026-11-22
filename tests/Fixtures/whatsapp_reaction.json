@@ -1,0 +1,35 @@
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "changes": [
+        {
+          "value": {
+            "contacts": [
+              {
+                "profile": {
+                  "name": "Test Test"
+                },
+                "wa_id": "1111981136571"
+              }
+            ],
+            "messages": [
+              {
+                "from": "1111981136571",
+                "reaction": {
+                  "emoji": "👍"
+                },
+                "timestamp": "1664799904",
+                "type": "reaction"
+              }
+            ],
+            "metadata": {
+              "phone_number_id": "test_phone_number_id",
+              "display_phone_number": "1234567890"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

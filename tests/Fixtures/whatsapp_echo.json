@@ -1,0 +1,31 @@
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "changes": [
+        {
+          "field": "smb_message_echoes",
+          "value": {
+            "message_echoes": [
+              {
+                "from": "1234567890",
+                "to": "919745786257",
+                "to_user_id": "IN.2081978709342942",
+                "id": "wamid.cloud-echo-message",
+                "text": {
+                  "body": "echo reply"
+                },
+                "timestamp": "1778579584",
+                "type": "text"
+              }
+            ],
+            "metadata": {
+              "phone_number_id": "test_phone_number_id",
+              "display_phone_number": "1234567890"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
